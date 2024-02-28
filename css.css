@@ -1,0 +1,73 @@
+.header{
+    display: flex;
+    flex: 1 1 1;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+}
+.menu-icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.menu-icon1{
+    height: 30px;
+    width: 30px;
+}
+.header-left{
+    display: flex;
+   
+}
+.wiki-text p{
+   
+    display: flex;
+    flex-direction: column;
+    height: 10px;
+    margin: 0;
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+
+.up-wiki{
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+.down-wiki{
+    font-size: 10px;
+    color: rgb(50, 50, 50);
+}
+.search-bar{
+    width: 230px;
+    border: 0.8px solid rgb(134, 132, 132);
+}
+.search-bar::placeholder{
+    font-size: 7px;
+    padding-left: 10px;
+}
+.header-middle
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-search{
+    border: 0.7px  solid rgb(134, 132, 132);
+    background-color: white;
+   
+    margin: 0;
+    font-size: 8px ;
+    text-align: center;
+    
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 5px;
+    font-size: 9px;
+}
+.t-dot{
+    height: 20px;
+    padding-top:4px ;
+}
