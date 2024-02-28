@@ -3,19 +3,22 @@
     flex: 1 1 1;
     align-items: center;
     justify-content: space-between;
-    background-color: red;
+  
 }
 .menu-icon{
-    height: 20px;
-    width: 20px;
+    height: 12px;
+    width: 12px;
     margin-right: 10px;
+    padding-bottom: 3px;
 }
-.menu-icon1{
-    height: 30px;
-    width: 30px;
+.wiki-logo{
+    height: 25px;
+    width: 25px;
 }
 .header-left{
     display: flex;
+    align-items: center;
+    justify-content: center;
    
 }
 .wiki-text p{
@@ -39,7 +42,7 @@
 }
 .search-bar{
     width: 230px;
-    border: 0.8px solid rgb(134, 132, 132);
+    border:  0.5px solid rgb(0, 0, 0);
 }
 .search-bar::placeholder{
     font-size: 7px;
@@ -56,8 +59,9 @@
     background-color: white;
    
     margin: 0;
-    font-size: 8px ;
+    font-size: 8.5px ;
     text-align: center;
+    border: 0.5px solid rgb(109, 107, 107);
     
 }
 .header-right{
